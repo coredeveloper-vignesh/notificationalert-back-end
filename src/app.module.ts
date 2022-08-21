@@ -6,12 +6,12 @@ import { WepPushService } from './services/wep-push/wep-push.service';
 
 export const dbConnection = new DataSource({
   type: 'mysql',
-  host: 'localhost',
-  // host: '103.150.186.74',
+  // host: 'localhost',
+  host: '103.150.186.74',
   port: 3306,
   username: 'root',
-  password: 'root',
-  // password: 'GetBizMysqlDatabasePwd2021@',
+  // password: 'root',
+  password: 'GetBizMysqlDatabasePwd2021@',
 });
 
 dbConnection
